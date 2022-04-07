@@ -1,0 +1,66 @@
+body 
+{
+  font-family: Arial;
+  background: #feceab;
+  margin: 0;
+}
+
+.header
+{
+  background: #e84a5f;
+  color: #ffffff;
+  overflow: hidden;
+  font-size: 2em;
+}
+
+.link
+{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.left
+{
+  float: left;
+  padding-left: 10%;
+}
+
+.right
+{
+  float: right;
+  padding-right: 10%;
+}
+
+.inner
+{
+  color: #111d5e;
+  font-size: 1.5em;
+  padding-top: 5%;
+  padding-left: 15%;
+}
+
+input
+{
+  font-size: 1em;
+  width: 90%;
+}
+
+select
+{
+  font-size: 1em;
+  width: 90%;
+}
+
+table
+{
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button
+{
+  font-size: 1em;
+}

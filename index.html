@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Base Convertor</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	
+	<div class="header">
+		<p class="left">CONVERT TO AND FROM BINARY</p>
+		<p class="right"><a class="link" href="about.html">ABOUT</a></p>
+	</div>
+	<table>
+		<tr>
+			<td colspan="2" class="center">Enter the number, select bases and click on "Convert"</td>
+		</tr>
+		<tr>
+			<td><input type="text" id="first"></td>
+    <td><input type="text" id="second"></td>
+    </tr>
+    <tr>
+    <td>
+      <select id="base1">
+      <option value="binary">Binary</option>
+      <option value="decimal">Decimal</option>
+      </select>
+    </td>
+    <td>
+    <select id="base2">
+      <option value="decimal">Decimal</option>
+      <option value="binary">Binary</option>
+    </select>
+    </td>
+    </tr>
+    <tr>
+      <td colspan="2" class="center"><button onclick="convert()">Convert</button></td>
+    </tr>
+    </table>
+    <script src="script.js">
+	  </script>
+  </body>
+</html>
